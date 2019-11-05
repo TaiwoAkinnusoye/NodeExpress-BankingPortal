@@ -33,7 +33,7 @@ app.get('/checking', (req, res) => {
 
 
 app.get('/profile', (req, res) => {
-    res.render('profile', {user: user[0]})
+    res.render('profile', {user: users[0]})
 })
 
 app.listen(3000, () => {
